@@ -1,3 +1,5 @@
+import './index.css';
+
 import {Plate} from './components/Plate/Plate';
 
 const root = document.getElementById('root');

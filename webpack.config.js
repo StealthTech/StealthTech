@@ -17,7 +17,7 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
-            { test: /\.jpeg$/, type: 'asset/resource' }
+            { test: /\.(jpeg|png)$/, type: 'asset/resource' }
         ]
     },
     resolve: {

@@ -1,0 +1,20 @@
+.plate {
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.plate__image {
+    width: 500px;
+}
+
+.plate__title {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+

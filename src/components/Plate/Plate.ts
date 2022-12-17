@@ -1,6 +1,11 @@
 // @ts-expect-error Пока не разобрались!
 import template from './Plate.handlebars';
 
+// @ts-expect-error Пока не разобрались!
+import Image from '../../assets/education.png';
+
+import './Plate.css';
+
 export class Plate {
     private parent: Element;
 
@@ -9,8 +14,10 @@ export class Plate {
     }
 
     render() {
+        console.log(Image);
         this.parent.innerHTML += template({
-            person: 'Миша'
+            person: 'Миша',
+            imageSrc: Image,
         });
     }
 }
