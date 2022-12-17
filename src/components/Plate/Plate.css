@@ -9,12 +9,17 @@
 }
 
 .plate__image {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .plate__title {
     font-weight: bold;
     margin-bottom: 16px;
     font-size: 18px;
+}
+
+.plate__text {
+    line-height: 1.5;
 }
 
